@@ -1,6 +1,65 @@
+
+
 .nav-menu {
   text-align: right;
 }
+
 .nav-spacing {
   margin-left: 10px;
+}
+
+a.decoration {
+  text-decoration: none;
+}
+
+/* CSS styling for index page */
+
+.image-link {
+  text-decoration: none;
+}
+
+.ab-quote {
+  padding: 2px 20px; background: #32a88d
+}
+
+/* CSS styling for HTML Tags page */
+
+td {
+  padding: 10px;
+}
+/* CSS styling for Moby Dick page */
+
+.book-report {
+  text-align: center;
+  margin: 0 0 80px;
+}
+
+.sperm-whale {
+  display: block;
+  margin: 0 auto;
+}
+
+.moby-dick {
+  width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fafafa
+}
+
+.book-cover {
+  height: 200px;
+  float: left;
+  margin: 0 40px 0 0;
+}
+
+.book-details {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.book-quote {
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f00;
 }
