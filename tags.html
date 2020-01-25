@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
   </head>
   <body>
+
+    <div>
+      <a href="index.html">Home</a>
+      <a href="tags.html">HTML Tags</a>
+      <a href="moby_dick.html">Moby Dick</a>
+    </div>
 
     <h1>Important HTML tags</h1>
 
@@ -27,6 +33,8 @@
         <th>Tag</th>
         <th>Name</th>
         <th>Purpose</th>
+        <th>Example</th>
+        <th>Result</th>
       </tr>
       <tr>
         <td><code>h1</code>&ndash;<code>h6</code></td>
@@ -58,6 +66,75 @@
         <td>table data</td>
         <td>include a table data cell</td>
       </tr>
+      <tr>
+        <td><code>header</code></td>
+        <td>header</td>
+        <td>header block level styling</td>
+        <td>
+          <code>&lt;header&gt;
+            <br>&lt;h5&gt;Title&lt;/h5&gt;
+            <br>&lt;h6&gt;Author&lt;/h6&gt;
+            <br>&lt;/header&gt;
+          </code>
+        </td>
+        <td>
+          <header>
+            <h5>Title</h5>
+            <h6>Author</h6>
+          </header>
+        </td>
+      </tr>
+      <tr>
+      <td><code>div</code></td>
+       <td>division</td>
+       <td>divide block element</td>
+       <td>
+         <code>&lt;div&gt;&lt;p&gt;hi&lt;/p&gt;&lt;/div&gt;
+           <br>&lt;p&gt;there&lt;/p&gt;
+         </code>
+       <td>
+         <div>
+           <p>hi</p>
+         </div>
+           <p>there</p>
+       </td>
+     </tr>
+     <tr>
+        <td><code>ul</code></td>
+        <td>unordered <br>list</td>
+        <td>unnumbered list tag</td>
+        <td>
+          <code>&lt;ul&gt;
+            <br>&lt;li&gt;fuits&lt;/li&gt;
+            <br>&lt;li&gt;veggies&lt;/li&gt;
+            <br>&lt;/ul&gt;
+          </code>
+        </td>
+        <td>
+          <ul>
+            <li>fuits</li>
+            <li>veggies</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered <br>list</td>
+        <td>numbered list tag</td>
+        <td>
+          <code>&lt;ol&gt;
+            <br>&lt;li&gt;cookies&lt;/li&gt;
+            <br>&lt;li&gt;cream&lt;/li&gt;
+            <br>&lt;/ol&gt;
+          </code>
+        </td>
+        <td>
+          <ol>
+            <li>cookies</li>
+            <li>cream</li>
+          </ol>
+        </td>
+      </tr>
     </table>
 
     <h2>Inline Elements</h2>
@@ -77,6 +154,64 @@
         <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
         <td><em>technical sophistication</em></td>
       </tr>
+      <tr>
+        <td><code>strong</code></td>
+        <td>strong</td>
+        <td>make strong text</td>
+        <td><code>&lt;strong&gt; at least a billion people&lt;/strong&gt;</code></td>
+        <td>FILL_IN</td>
+      </tr>
+      <tr>
+        <td><code>a</code></td>
+        <td>anchor</td>
+        <td>make hyperlink</td>
+        <td>
+          <code>&lt;a href="https://learnenough.com/"&gt;Learn Enough&alt;/a&gt;</code>
+        </td>
+        <td>FILL_IN</td>
+      </tr>
+      <tr>
+        <td><code>img</code></td>
+        <td>image</td>
+        <td>include an image</td>
+        <td>
+          <code>
+            &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+          </code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>span</td>
+        <td>inline element</td>
+        <td>
+          <code>&lt;p&gt;
+            <br>&lt;span&gt;hello&lt;/span&gt;there
+            <br>&lt;/p&gt;
+          </code>
+        </td>
+        <td>
+          <p><span>hello</span>there</p>
+        </td>
+      </tr>
+      <tr>
+      <td><code>li</code></td>
+      <td>list</td>
+      <td>list element</td>
+      <td>
+        <code>&lt;ul&gt;
+          <br>&lt;li&gt;warmth&lt;/li&gt;
+          <br>&lt;li&gt;shelther&lt;/li&gt;
+          <br>&lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>warmth</li>
+          <li>shelter</li>
+        </ul>
+      </td>
+    </tr>
     </table>
 
   </body>
